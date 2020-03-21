@@ -1,0 +1,115 @@
+.nav-menu{
+	padding-bottom: 80px;
+}
+.box {
+	float:left;
+}
+.logo {
+	width: 300px;
+	height: 150px;
+	margin-left : 50px;
+}
+.profile {
+	width: 250px;
+	height: 50px;
+	list-style: none;
+	display: flex;
+	float: right;
+	margin-top: 50px;
+	margin-right :auto;
+}
+li {
+	padding: 10px;
+}
+.searchitem{
+	width: 0px;
+	height: 0px;
+	padding-top: 50px;
+	padding-left: 40%;
+}
+.searchitem input#search{
+	width: 500px;
+	height: 35px;
+	border-radius : 15px;
+	font-size: 10pt;
+	float:left;
+	padding-left: 30px;
+	margin-top: 0px;
+}
+
+.main-nav{
+	display: flex;
+	list-style: none;
+	font-size: 25px;
+	margin-left: 50px;
+	margin-right: 30px;
+}
+.main-nav li {
+	padding: 70px;
+}
+.main-nav li a{
+	color: black;
+	text-decoration: none;
+}
+.background{
+	display:block;
+	margin-right: auto;
+	margin-left: auto;
+}
+.title-block{
+	margin-top: 100px;
+	margin-left: 40%;
+	margin-right: 250px;
+	margin-bottom: 100px;	
+	font-size: 35px;
+	color: red;
+}
+.title-block a{
+	margin-top: 10px;
+	float : right;
+	font-size: 20px;
+}
+.avtar{
+	width: 350px;
+	height: 350px;
+}
+.tem-image{
+	margin-top: -20px;
+	margin-left: -50px;
+	list-style: none;
+}
+.row {
+	display : grid;
+	grid-gap: 25px;
+	grid-template-columns: repeat(auto-fill,minmax(350px,1fr));
+	margin-left: 150px;
+	margin-right: 150px;
+
+}
+.product-title{
+	margin: 0px 0px 10px;
+	padding-right:10px;
+	font-size: 17px;
+}
+.product-title a{
+	color:black;
+	text-decoration: none;
+}
+.price .amount{
+	list-style: none;
+}
+.main-footer{
+	margin-top: 100px;
+	background: #E0D7D7;
+}
+.info{
+	margin-top: 100px;
+}
+.list-ft{
+	list-style: none;
+}
+.list-ft li{
+	font-size: 18px;
+	color : black;
+	margin-left: -50px;
+}
